@@ -1,0 +1,6 @@
+<?php
+
+$cliente = new Cliente(1);
+$cliente->excluir();
+
+?>
