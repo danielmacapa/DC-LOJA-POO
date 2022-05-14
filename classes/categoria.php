@@ -69,7 +69,7 @@ class Categoria{
             $registros = $stmt->fetchAll();
             
             foreach($registros as $registro){
-                $temp = new Cliente();
+                $temp = new Categoria();
                 $temp->setId($registro["id"]);
                 $temp->setNome($registro["nome"]);
             
